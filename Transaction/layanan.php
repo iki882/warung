@@ -31,7 +31,7 @@
      
         <h1>1. Nasi goreng</h1>
         <p>15000</p>
-       <img src="../assets/ goreng.jpg" class="img" alt="nasi goreng" >
+       <img src="../assets/img/nasi goreng.jpg goreng.jpg" class="img" alt="nasi goreng" >
        <a href="transaction/buy.html?menu=Nasi goreng&harga=15000">
         <button class="btn">Beli Sekarang</button>
     </a>

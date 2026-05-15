@@ -93,7 +93,7 @@
     <div class="item">
         <h1>3. Kopi hitam</h1>
         <p>8000</p>
-        <img src="assets/img/kopi hitam.jpg" class="img" alt="kopi hitam" width="100px" heigth="80px">
+        <img src="../assets/img/kopi hitam.jpg" class="img" alt="kopi hitam" width="100px" heigth="80px">
         <a href="transaction/buy.html?menu=Kopi hitam&harga=8000">
         <button class="btn">Beli Sekarang</button>
         </a>

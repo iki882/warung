@@ -63,7 +63,7 @@
     <div class="item">
         <h1>5.Nasi Padang</h1>
         <p>23000</p>
-        <img src="assets/img/Nasi padang.jpg" class="img" alt="Nasi padang" width="100px" heigth="80px">
+        <img src="../assets/img/Nasi padang.jpg" class="img" alt="Nasi padang" width="100px" heigth="80px">
           <a href="transaction/buy.html?menu=Nasi Padang&harga=23000">
           <button class="btn">Beli Sekarang</button>
           </a>
@@ -76,7 +76,7 @@
     <div class="item">
         <h1>1. Es Teh</h1>
         <p>5000</p>  
-        <img src="assets/img/es teh.jpg" class="img" alt="es teh" width="100px" heigth="80px">
+        <img src="../assets/img/es teh.jpg" class="img" alt="es teh" width="100px" heigth="80px">
         <a href="transaction/buy.html?menu=Es Teh&harga=5000">
         <button class="btn">Beli Sekarang</button>
     </a>    
@@ -84,7 +84,7 @@
     <div class="item">
         <h1>2. Teh Panas</h1>
         <p>50000</p>
-        <img src="assets/img/teh panas.jpg" class="img" alt="teh panas" width="100px" heigth="80px">
+        <img src="../assets/img/teh panas.jpg" class="img" alt="teh panas" width="100px" heigth="80px">
         <a href="transaction/buy.html?menu=Teh Panas&harga=50000">
         <button class="btn">Beli Sekarang</button>
         </a>

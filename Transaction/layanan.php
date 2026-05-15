@@ -100,7 +100,7 @@
     <div class="item">
         <h1>4.Air Mineral</h1>
         <p>7000</p>
-        <img src="assets/img/air mineral.jpg" class="img" alt="air mineral" width="100px" heigth="80px">
+        <img src="../assets/img/air mineral.jpg" class="img" alt="air mineral" width="100px" heigth="80px">
         <a href="transaction/buy.html?menu=Air Mineral&harga=7000">
         <button class="btn">Beli Sekarang</button>
         </a>
@@ -108,7 +108,7 @@
     <div class="item">
         <h1>5. Jus Alpukat</h1>
         <p>15000</p>
-        <img src="assets/img/jus alpukat.jpg" class="img" alt="jus alpukat" width="100px" heigth="80px">
+        <img src="../assets/img/jus alpukat.jpg" class="img" alt="jus alpukat" width="100px" heigth="80px">
         <a href="transaction/buy.html?menu=Jus Alpukat&harga=15000">
          <button class="btn">beli Sekarang</button>
         </a>

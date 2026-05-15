@@ -47,7 +47,7 @@
     <div class="item">
         <h1>3.Sate Ayam</h1>
         <p>25000</p>
-        <img src="assets/img/sate ayam.jpg" class="img" alt="sate ayam" width="100px" heigth="80px">
+        <img src="../assets/ ayam.jpg" class="img" alt="sate ayam" width="100px" heigth="80px">
         <a href="transaction/buy.html?menu=Sate ayam&harga=25000">
         <button class="btn">beli Sekarang</button>
         </a>

@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>warung Nusantara</title>
-     <link rel="stylesheet" href="assets/style.css">
+     <link rel="stylesheet" href="../assets/style.css">
 
 </head>
 <body>
     <div class="container">
-        <img src="assets/img/Logo-warung3.png" class="Logo" alt="Logo warung" width="40px" height="40px">
+        <img src="../assets/img/Logo-warung3.png" class="Logo" alt="Logo warung" width="40px" height="40px">
     </div>
     <header>
         <nav>

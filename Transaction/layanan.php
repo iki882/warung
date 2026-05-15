@@ -39,7 +39,7 @@
     <div class="item">
         <h1>2.Mie goreng</h1>
         <p>10000</p>
-        <img src="../assets/img/SKINNYASIA_ Mi Goreng.jpg Goreng.jpg" class="img" alt="mie goreng" width="100px" heigth="80px">
+        <img src="../assets/img/SKINNYASIA_ Mi Goreng.jpg" class="img" alt="mie goreng" width="100px" heigth="80px">
         <a href="transaction/buy.html?menu=Mie goreng&harga=10000">
         <button class="btn">Beli Sekarang</button>
         </a>

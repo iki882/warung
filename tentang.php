@@ -19,10 +19,10 @@ include 'auth/config.php';
 
     <header>
         <nav>
-           <button><a href="tentang.html">Tentang</a></button>
+           <button><a href="tentang.php">Tentang</a></button>
            <button><a href="transaction/layanan.php">Layanan</a></button> 
            <button><a href="transaction/hubungi.php">Hubungi</a></button>
-           <button><a href="order.html">Order</a></button>
+           <button><a href="order.php">Order</a></button>
             
         </nav>
     </header>

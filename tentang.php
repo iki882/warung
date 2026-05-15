@@ -22,7 +22,7 @@ include 'auth/config.php';
            <button><a href="tentang.php">Tentang</a></button>
            <button><a href="transaction/layanan.php">Layanan</a></button> 
            <button><a href="transaction/hubungi.php">Hubungi</a></button>
-           <button><a href="order.php">Order</a></button>
+           <button><a href="transaction/order.php">Order</a></button>
             
         </nav>
     </header>

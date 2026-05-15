@@ -75,7 +75,7 @@
     <div class="item">
         <h1>1. Es Teh</h1>
         <p>5000</p>  
-        <img src="assets/img/es teh.jpg" class="img" alt="es teh" width="100px" heigth="8z0px">
+        <img src="assets/img/es teh.jpg" class="img" alt="es teh" width="100px" heigth="80px">
         <a href="transaction/buy.html?menu=Es Teh&harga=5000">
         <button class="btn">Beli Sekarang</button>
     </a>    

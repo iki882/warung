@@ -14,12 +14,11 @@ include 'auth/config.php';
 </head>
 <body>
     <div class="container">
-        <img src="assets/img/Logo-warung3.png" class="logo" alt="Logo warung" width="100px" height="80px">
+        <img src="../assets/img/Logo-warung3.png" class="logo" alt="Logo warung" width="40px" height="40px">
     </div>
 
     <header>
         <nav>
-           <button><a href="tentang.php">Tentang</a></button>
            <button><a href="transaction/layanan.php">Layanan</a></button> 
            <button><a href="transaction/hubungi.php">Hubungi</a></button>
            <button><a href="transaction/order.php">Order</a></button>
@@ -36,17 +35,17 @@ include 'auth/config.php';
     </div>
     
     <div class="container1">
-        <img src="assets/img/Nasi padang.jpg" class="gerak"><br>
+        <img src="../assets/img/Nasi padang.jpg" class="gerak"><br>
         <br>
-        <img src="assets/img/Soto Ayam.jpg" class="gerak"><br>
+        <img src="../assets/img/Soto Ayam.jpg" class="gerak"><br>
         <br>
-        <img src="assets/img/nasi goreng.jpg" class="gerak">
+        <img src="../assets/img/nasi goreng.jpg" class="gerak">
     </div>
 
     <div class="hero">
-        <img src="assets/img/teh panas.jpg" class="gerak"><br> 
+        <img src="../assets/img/teh panas.jpg" class="gerak"><br> 
         <br>
-        <img src="assets/img/kopi hitam.jpg" class="gerak">
+        <img src="../assets/img/kopi hitam.jpg" class="gerak">
         </div>
  
     

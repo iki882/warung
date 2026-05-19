@@ -13,7 +13,7 @@
     </div>
     <header>
         <nav>
-           <button><a href="tentang.php">Tentang</a></button>
+           <button><a href="../tentang.php">Tentang</a></button>
            <button><a href="transaction/Hubungi.php">Hubungi</a></button>
            <button><a href="Order.php">Order</a></button>
             

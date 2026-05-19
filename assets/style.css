@@ -117,8 +117,8 @@ nav a {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 348px;
-    height: 300px;
+    width:  48px;
+    height: 30px;
     margin: 40px auto;
     gap: 20px;
 }

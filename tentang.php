@@ -8,13 +8,13 @@ include 'auth/config.php';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tentang</title>
-      <link rel="stylesheet" href="../assets/style.css">
+      <link rel="stylesheet" href="assets/style.css">
 
 </head>
 </head>
 <body>
     <div class="container">
-        <img src="../assets/img/Logo-warung3.png" class="logo" alt="Logo warung" width="40px" height="40px">
+        <img src="assets/img/Logo-warung3.png" class="logo" alt="Logo warung" width="40px" height="40px">
     </div>
 
     <header>
@@ -35,17 +35,17 @@ include 'auth/config.php';
     </div>
     
     <div class="container1">
-        <img src="../assets/img/Nasi padang.jpg" class="gerak"><br>
+        <img src="assets/img/Nasi padang.jpg" class="gerak"><br>
         <br>
-        <img src="../assets/img/Soto Ayam.jpg" class="gerak"><br>
+        <img src="assets/img/Soto Ayam.jpg" class="gerak"><br>
         <br>
-        <img src="../assets/img/nasi goreng.jpg" class="gerak">
+        <img src="assets/img/nasi goreng.jpg" class="gerak">
     </div>
 
     <div class="hero">
-        <img src="../assets/img/teh panas.jpg" class="gerak"><br> 
+        <img src="assets/img/teh panas.jpg" class="gerak"><br> 
         <br>
-        <img src="../assets/img/kopi hitam.jpg" class="gerak">
+        <img src="assets/img/kopi hitam.jpg" class="gerak">
         </div>
  
     

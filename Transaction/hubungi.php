@@ -18,7 +18,6 @@ include 'auth/config.php';
      <header>
         <nav>
            <button><a href="../tentang.html">Tentang</a></button>
-           <button><a href="Hubungi.html">Hubungi</a></button>
            <button><a href="../order.html">order</a></button>
             
         </nav>

@@ -17,8 +17,8 @@ include 'auth/config.php';
     
      <header>
         <nav>
-           <button><a href="../tentang.html">Tentang</a></button>
-           <button><a href="../order.html">order</a></button>
+           <button><a href="../tentang.php">Tentang</a></button>
+           <button><a href="../order.php">order</a></button>
             
         </nav>
     </header>

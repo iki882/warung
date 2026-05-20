@@ -23,6 +23,8 @@ header {
     padding: 5px;
     display: flex;
     align-items: center;
+    height: auto;
+    width: 20px;
 
 }
 
@@ -117,8 +119,8 @@ nav a {
     display: flex;
     justify-content: center;
     align-items: center;
-    width:  48px;
-    height: 30px;
+    width:  480px;
+    height: 430px;
     margin: 40px auto;
     gap: 20px;
 }

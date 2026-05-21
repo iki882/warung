@@ -31,9 +31,17 @@ $team = [
 <body>
 
 <header>
+        <nav>
+           <button><a href="transaction/layanan.php">Layanan</a></button> 
+           <button><a href="transaction/hubungi.php">Hubungi</a></button>
+           <button><a href="transaction/order.php">Order</a></button>
+            
+        </nav>
+    </header>
+<!-- <header>
     <h1>About Warung Nusantara</h1>
     <p>Traditional Indonesian Food Website</p>
-</header>
+</header> -->
 
 <section class="about">
     <h2>About Us</h2>

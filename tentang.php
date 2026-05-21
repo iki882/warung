@@ -1,5 +1,18 @@
-<?php 
-include 'auth/config.php';
+<?php
+$services = [
+    [
+        "title" => "Food Ordering",
+        "description" => "Customers can order traditional Indonesian food online."
+    ],
+    [
+        "title" => "Delivery Service",
+        "description" => "Food can be delivered directly to the customer location."
+    ],
+    [
+        "title" => "Reservation",
+        "description" => "Customers can reserve tables before visiting the restaurant."
+    ]
+];
 ?>
 
 <!DOCTYPE html>
@@ -7,55 +20,31 @@ include 'auth/config.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tentang</title>
-      <link rel="stylesheet" href="assets/style.css">
+    <title>Warung Nusantara Services</title>
 
-</head>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <img src="assets/img/Logo-warung3.png" class="logo" alt="Logo warung" width="40px" height="40px">
-    </div>
 
-    <header>
-        <nav>
-           <button><a href="transaction/layanan.php">Layanan</a></button> 
-           <button><a href="transaction/hubungi.php">Hubungi</a></button>
-           <button><a href="transaction/order.php">Order</a></button>
-            
-        </nav>
-    </header>
+<header>
+    <h1>Warung Nusantara Services</h1>
+    <p>Traditional Indonesian Food Website</p>
+</header>
 
-    <div class="tesk">
-        <p>Ini adalah halaman utama kami tentang Warung Nusantara yang menghasilkan berbagai banyak makanan khas indonesia, sama khsasnya, kalian juga
-            bisa memesan Makanan yang ada dari warung nusantara ini Secara Online, atau juga kalian bisa datang Langsung ke tempat kami, Serta Kami menydiakan
-            Layanan Antar jemput untuk pesanan kalian yang Berada di sekitaran Wilayah kami.dan Jika mengalami keluhan terhadap layanan kami atau menu makanan yang
-            kami sediakan, kalian bisa hubungin kami di halaman Hubungin kami.
-        </p>
-    </div>
-    
-    <div class="container1">
-        <img src="assets/img/Nasi padang.jpg" class=""><br>
-        <br>
-        <img src="assets/img/Soto Ayam.jpg" class=""><br>
-        <br>
-        <img src="assets/img/nasi goreng.jpg" class="">
-    </div>
+<div class="container">
 
-    <div class="hero">
-        <img src="assets/img/teh panas.jpg" class=""><br> 
-        <br>
-        <img src="assets/img/kopi hitam.jpg" class="">
+    <?php foreach($services as $service): ?>
+        <div class="card">
+            <h2><?php echo $service['title']; ?></h2>
+            <p><?php echo $service['description']; ?></p>
         </div>
- 
-    
-    <footer>
-        <p>&copy; 2025 warung makanan kami buka sampai jam 22.00 JL.KP Muara KEC Kutawaringin RT 1 RW 11</p>
-    </footer>
+    <?php endforeach; ?>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 Warung Nusantara</p>
+</footer>
+
 </body>
 </html>
-
-
-<?php
-
-?>

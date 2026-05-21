@@ -35,17 +35,17 @@ include 'auth/config.php';
     </div>
     
     <div class="container1">
-        <img src="assets/img/Nasi padang.jpg" class="gerak"><br>
+        <img src="assets/img/Nasi padang.jpg" class=""><br>
         <br>
-        <img src="assets/img/Soto Ayam.jpg" class="gerak"><br>
+        <img src="assets/img/Soto Ayam.jpg" class=""><br>
         <br>
-        <img src="assets/img/nasi goreng.jpg" class="gerak">
+        <img src="assets/img/nasi goreng.jpg" class="">
     </div>
 
     <div class="hero">
-        <img src="assets/img/teh panas.jpg" class="gerak"><br> 
+        <img src="assets/img/teh panas.jpg" class=""><br> 
         <br>
-        <img src="assets/img/kopi hitam.jpg" class="gerak">
+        <img src="assets/img/kopi hitam.jpg" class="">
         </div>
  
     

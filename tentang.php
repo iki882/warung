@@ -1,5 +1,22 @@
-<?php 
-include 'auth/config.php';
+<?php
+$vision = "To introduce Indonesian traditional food to the world.";
+
+$missions = [
+    "Provide authentic Indonesian food",
+    "Give the best customer service",
+    "Support local culinary culture"
+];
+
+$team = [
+    [
+        "name" => "Muhammad Rizqi",
+        "role" => "Web Developer"
+    ],
+    [
+        "name" => "Andi Saputra",
+        "role" => "UI Designer"
+    ]
+];
 ?>
 
 <!DOCTYPE html>
@@ -7,55 +24,62 @@ include 'auth/config.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tentang</title>
-      <link rel="stylesheet" href="assets/style.css">
+    <title>About - Warung Nusantara</title>
 
-</head>
+    <link rel="stylesheet" href="about.css">
 </head>
 <body>
-    <div class="container">
-        <img src="assets/img/Logo-warung3.png" class="logo" alt="Logo warung" width="40px" height="40px">
-    </div>
 
-    <header>
-        <nav>
-           <button><a href="transaction/layanan.php">Layanan</a></button> 
-           <button><a href="transaction/hubungi.php">Hubungi</a></button>
-           <button><a href="transaction/order.php">Order</a></button>
-            
-        </nav>
-    </header>
+<header>
+    <h1>About Warung Nusantara</h1>
+    <p>Traditional Indonesian Food Website</p>
+</header>
 
-    <div class="tesk">
-        <p>Ini adalah halaman utama kami tentang Warung Nusantara yang menghasilkan berbagai banyak makanan khas indonesia, sama khsasnya, kalian juga
-            bisa memesan Makanan yang ada dari warung nusantara ini Secara Online, atau juga kalian bisa datang Langsung ke tempat kami, Serta Kami menydiakan
-            Layanan Antar jemput untuk pesanan kalian yang Berada di sekitaran Wilayah kami.dan Jika mengalami keluhan terhadap layanan kami atau menu makanan yang
-            kami sediakan, kalian bisa hubungin kami di halaman Hubungin kami.
-        </p>
-    </div>
-    
-    <div class="container1">
-        <img src="assets/img/Nasi padang.jpg" class="gerak"><br>
-        <br>
-        <img src="assets/img/Soto Ayam.jpg" class="gerak"><br>
-        <br>
-        <img src="assets/img/nasi goreng.jpg" class="gerak">
-    </div>
+<section class="about">
+    <h2>About Us</h2>
 
-    <div class="hero">
-        <img src="assets/img/teh panas.jpg" class="gerak"><br> 
-        <br>
-        <img src="assets/img/kopi hitam.jpg" class="gerak">
-        </div>
- 
-    
-    <footer>
-        <p>&copy; 2025 warung makanan kami buka sampai jam 22.00 JL.KP Muara KEC Kutawaringin RT 1 RW 11</p>
-    </footer>
+    <p>
+        Warung Nusantara is a website that provides information
+        about Indonesian traditional food and online food services.
+        This website was created to introduce Indonesian cuisine
+        to more people.
+    </p>
+</section>
+
+<section class="vision">
+    <h2>Our Vision</h2>
+
+    <p><?php echo $vision; ?></p>
+</section>
+
+<section class="mission">
+    <h2>Our Mission</h2>
+
+    <ul>
+        <?php foreach($missions as $mission): ?>
+            <li><?php echo $mission; ?></li>
+        <?php endforeach; ?>
+    </ul>
+</section>
+
+<section class="team">
+    <h2>Our Team</h2>
+
+    <div class="team-container">
+
+        <?php foreach($team as $member): ?>
+            <div class="card">
+                <h3><?php echo $member['name']; ?></h3>
+                <p><?php echo $member['role']; ?></p>
+            </div>
+        <?php endforeach; ?>
+
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 Warung Nusantara</p>
+</footer>
+
 </body>
 </html>
-
-
-<?php
-
-?>

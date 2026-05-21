@@ -43,10 +43,10 @@ $team = [
             
         </nav>
     </header>
-<header class="text">
+<!-- <header class="text">
     <h1>About Warung Nusantara</h1>
     <p>Traditional Indonesian Food Website</p>
-</header>
+</header> -->
 
 <section class="about">
     <h2>About Us</h2>

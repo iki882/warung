@@ -126,15 +126,15 @@ nav a {
     margin-left: auto;
 }
 
-.about{
-    background-color:white; 
-    color:black;
+/* .about{
+    background-color:aquamarine; 
+    color:aquamarine;
     text-align: center;
     font-family: Arial,sans-serif;
     margin: auto;
     padding: auto;
     text-align: center;
-}
+} */
  
 .container1{
     display: flex;

@@ -9,7 +9,7 @@ $missions = [
 
 $team = [
     [
-        "name" => "Muhammad Rizqi",
+        "name" => "Muhammad Rizqi Pratama",
         "role" => "Web Developer"
     ],
     [

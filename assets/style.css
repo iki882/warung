@@ -5,7 +5,6 @@ body{
     text-align: center;
     margin:0px;
     padding: 5px;
-    
 }
 
 header {
@@ -115,7 +114,7 @@ nav a {
     padding: auto;
     text-align: center;
 }
-/*  
+ 
 .container1{
     display: flex;
     justify-content: center;
@@ -124,7 +123,7 @@ nav a {
     height: 430px;
     margin: 40px auto;
     gap: 20px;
-} */
+}
 
 /* LOGO */
 .logo {
@@ -148,15 +147,15 @@ nav a {
   width: 20px; 
   text-align: center;         
 }
-/* .gerak{
+.gerak{
     width:200px;
     animation: naik 2s infinite alternate;
-} */
+}
 
-/* @keyframes naik {
+@keyframes naik {
     0% { transform: translateY(0); }
     100% { transform: translateY(-30px); }
-} */
+}
 .footer{
      position: fixed;
     bottom: 0;
@@ -167,7 +166,7 @@ nav a {
     text-align: center;
     padding: 10px 0;
 }
-/* .hero{
+.hero{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -176,7 +175,7 @@ nav a {
     margin: 40px auto;
     gap: 20px;
     right:-120px;
-    overflow: hidden; 
+    overflow: hidden; /*rapi */
     padding-right: 5px;
-} */
+}
 

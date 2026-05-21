@@ -17,15 +17,33 @@ header {
 }
 
 
-.container {
-    display: flex;
-    align-items: center;
-    padding: 5px;
-    display: flex;
-    align-items: center;
-    height: auto;
-    width: 20px;
+section{
+    width: 80%;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
 
+h2{
+    color: #c0392b;
+}
+
+
+.team-container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+.card{
+    background-color: #fafafa;
+    padding: 15px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 /* LOGO */
@@ -147,15 +165,9 @@ nav a {
   width: 20px; 
   text-align: center;         
 }
-.gerak{
-    width:200px;
-    animation: naik 2s infinite alternate;
-}
 
-@keyframes naik {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-30px); }
-}
+
+
 .footer{
      position: fixed;
     bottom: 0;
@@ -166,16 +178,5 @@ nav a {
     text-align: center;
     padding: 10px 0;
 }
-.hero{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 348px;
-    height: 300px;
-    margin: 40px auto;
-    gap: 20px;
-    right:-120px;
-    overflow: hidden; /*rapi */
-    padding-right: 5px;
-}
+
 

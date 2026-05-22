@@ -4,7 +4,7 @@
 
 
 <?php
-$vision = "To introduce Indonesian traditional food to the world.";
+$koneksi = "To introduce Indonesian traditional food to the world.";
 
 $missions = [
     "Provide authentic Indonesian food",
@@ -62,7 +62,7 @@ $team = [
 <section class="vision">
     <h2>Our Vision</h2>
 
-    <p><?php echo $vision; ?></p>
+    <p><?php echo $koneksi; ?></p>
 </section>
 
 <section class="mission">

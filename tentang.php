@@ -1,17 +1,18 @@
-<?php include'auth/config.php';
-?>
-
-
-
 <?php
-$vision = "To become the leading platform for promoting and sharing Indonesian traditional food.";
 
+include 'auth/config.php';
+
+// Vision
+$vision = "To introduce Indonesian traditional food to the world.";
+
+// Mission
 $missions = [
     "Provide authentic Indonesian food",
     "Give the best customer service",
     "Support local culinary culture"
 ];
 
+// Team
 $team = [
     [
         "name" => "Muhammad Rizqi Pratama",
@@ -22,6 +23,7 @@ $team = [
         "role" => "UI Designer"
     ]
 ];
+
 ?>
 
 <!DOCTYPE html>
@@ -36,17 +38,20 @@ $team = [
 <body>
 
 <header>
-        <nav>
-           <button><a href="transaction/layanan.php">Layanan</a></button> 
-           <button><a href="transaction/hubungi.php">Hubungi</a></button>
-           <button><a href="transaction/order.php">Order</a></button>
-            
-        </nav>
-    </header>
-<!-- <header class="text">
-    <h1>About Warung Nusantara</h1>
-    <p>Traditional Indonesian Food Website</p>
-</header> -->
+    <nav>
+        <button>
+            <a href="Transaction/layanan.php">Layanan</a>
+        </button>
+
+        <button>
+            <a href="Transaction/hubungi.php">Hubungi</a>
+        </button>
+
+        <button>
+            <a href="Transaction/order.php">Order</a>
+        </button>
+    </nav>
+</header>
 
 <section class="about">
     <h2>About Us</h2>
@@ -54,8 +59,6 @@ $team = [
     <p>
         Warung Nusantara is a website that provides information
         about Indonesian traditional food and online food services.
-        This website was created to introduce Indonesian cuisine
-        to more people.
     </p>
 </section>
 

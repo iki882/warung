@@ -15,7 +15,7 @@
         <nav>
            <button><a href="../tentang.php">Tentang</a></button>
          <button><a href="hubungi.php">Hubungi</a></button>
-           <button><a href="Order.php">Order</a></button>
+           <button><a href="../order.php">Order</a></button>
             
         </nav>
     </header>

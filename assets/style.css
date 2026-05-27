@@ -25,7 +25,6 @@ header{
     box-shadow:0 2px 5px rgba(0,0,0,0.2);
 }
 
-
 .team-container{
     display:flex;
     gap:20px;
@@ -125,4 +124,8 @@ nav a{
     color:black;
     text-align:center;
     padding:10px 0;
+}
+
+h2{
+    color:black !important;
 }

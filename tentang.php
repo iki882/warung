@@ -49,7 +49,7 @@ $team = [
         </button>
 
         <button>
-            <a href="../order.php">Order</a>
+            <a href="order.php">Order</a>
         </button>
     </nav>
 </header>

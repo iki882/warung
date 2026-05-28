@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="../assets/style.css">
 </head>
- <<header>
+ <header>
     <nav>
         
     </nav>

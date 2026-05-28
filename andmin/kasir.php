@@ -7,7 +7,11 @@
 
     <link rel="stylesheet" href="../assets/style.css">
 </head>
-
+ <<header>
+    <nav>
+        
+    </nav>
+ </header>
 <body class="page1 post">
 
     <h2 class="h2">Pesanan Pembelian</h2>

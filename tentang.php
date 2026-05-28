@@ -18,7 +18,7 @@ $team = [
         "role" => "Web Developer"
     ],
     [
-        "name" => "Andi Saputra",
+        "name" => "Muhammad Rizqi Pratama",
         "role" => "UI Designer"
     ]
 ];

@@ -13,9 +13,17 @@
     </div>
     <header>
         <nav>
-           <button><a href="tentang.php">Tentang</a></button>
-         <button><a href=".Transaction/hubungi.php">Hubungi</a></button>
-           <button><a href="order.php">Order</a></button>
+           <button>
+            <a href="tentang.php">Tentang</a>
+        </button>
+
+         <button> 
+            <a href="Transaction/hubungi.php">Hubungi</a>
+        </button>
+        
+           <button>
+            <a href="order.php">Order</a>
+        </button>
             
         </nav>
     </header>

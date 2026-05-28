@@ -8,8 +8,16 @@
     <link rel="stylesheet" href="../assets/style.css">
 </head>
  <header>
+
+    <div class="container">
+        <img src="../assets/img/Logo-warung3.png" class="Logo" alt="Logo warung" width="40px" height="40px">
+    </div>
+
     <nav>
+        <button>
+            <a href="../tentang.php" >Tentang</a>  
         
+        </button>
     </nav>
  </header>
 <body class="page1 post">
@@ -33,6 +41,7 @@
             Hapus
         </button>
     </div>
+
 
 <script>
 

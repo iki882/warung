@@ -39,7 +39,7 @@
         <h1>1. Nasi goreng</h1>
         <p>15000</p>
        <img src="assets/img/nasi goreng.jpg" class="img" alt="nasi goreng" >
-       <a href="transaction/kasir.php?menu=Nasi goreng&harga=15000">
+       <a href="admin/kasir.php?menu=Nasi goreng&harga=15000">
         <button class="btn">Beli Sekarang</button>
     </a>
         </div>
@@ -47,7 +47,7 @@
         <h1>2.Mie goreng</h1>
         <p>10000</p>
         <img src="assets/img/SKINNYASIA_ Mi Goreng.jpg" class="img" alt="mie goreng" width="100px" heigth="80px">
-        <a href="transaction/kasir.php?menu=Mie goreng&harga=10000">
+        <a href="admin/kasir.php?menu=Mie goreng&harga=10000">
         <button class="btn">Beli Sekarang</button>
         </a>
         </div>
@@ -55,7 +55,7 @@
         <h1>3.Sate Ayam</h1>
         <p>25000</p>
         <img src="assets/img/sate ayam.jpg" class="img" alt="sate ayam" width="100px" heigth="80px">
-        <a href="transaction/kasir.php?menu=Sate ayam&harga=25000">
+        <a href="admin/kasir.php?menu=Sate ayam&harga=25000">
         <button class="btn">beli Sekarang</button>
         </a>
     </div>
@@ -63,7 +63,7 @@
         <h1>4.Soto Ayam</h1>
         <p>15000</p>
         <img src="assets/img/Soto Ayam.jpg" class="img" alt="Soto Ayam" width="100px" heigth="80px">
-        <a href="transaction/kasir.php?menu=soto ayam&harga=15000">
+        <a href="admin/kasir.php?menu=soto ayam&harga=15000">
         <button class="btn">beli Sekarang</button>
         </a>
     </div>
@@ -71,7 +71,7 @@
         <h1>5.Nasi Padang</h1>
         <p>23000</p>
         <img src="assets/img/Nasi padang.jpg" class="img" alt="Nasi padang" width="100px" heigth="80px">
-          <a href="transaction/kasir.php?menu=Nasi Padang&harga=23000">
+          <a href="admin/kasir.php?menu=Nasi Padang&harga=23000">
           <button class="btn">Beli Sekarang</button>
           </a>
     </div>
@@ -84,7 +84,7 @@
         <h1>1. Es Teh</h1>
         <p>5000</p>  
         <img src="assets/img/es teh.jpg" class="img" alt="es teh" width="100px" heigth="80px">
-        <a href="transaction/kasir.php?menu=Es Teh&harga=5000">
+        <a href="admin/kasir.php?menu=Es Teh&harga=5000">
         <button class="btn">Beli Sekarang</button>
     </a>    
     </div>
@@ -92,7 +92,7 @@
         <h1>2. Teh Panas</h1>
         <p>50000</p>
         <img src="assets/img/teh panas.jpg" class="img" alt="teh panas" width="100px" heigth="80px">
-        <a href="transaction/kasir.php?menu=Teh Panas&harga=50000">
+        <a href="admin/kasir.php?menu=Teh Panas&harga=50000">
         <button class="btn">Beli Sekarang</button>
         </a>
         
@@ -101,7 +101,7 @@
         <h1>3. Kopi hitam</h1>
         <p>8000</p>
         <img src="assets/img/kopi hitam.jpg" class="img" alt="kopi hitam" width="100px" heigth="80px">
-        <a href="transaction/kasir.php?menu=Kopi hitam&harga=8000">
+        <a href="admin/kasir.php?menu=Kopi hitam&harga=8000">
         <button class="btn">Beli Sekarang</button>
         </a>
     </div>
@@ -109,7 +109,7 @@
         <h1>4.Air Mineral</h1>
         <p>7000</p>
         <img src="assets/img/air mineral.jpg" class="img" alt="air mineral" width="100px" heigth="80px">
-        <a href="transaction/kasir.php?menu=Air Mineral&harga=7000">
+        <a href="admin/kasir.php?menu=Air Mineral&harga=7000">
         <button class="btn">Beli Sekarang</button>
         </a>
     </div>
@@ -117,7 +117,7 @@
         <h1>5. Jus Alpukat</h1>
         <p>15000</p>
         <img src="assets/img/jus alpukat.jpg" class="img" alt="jus alpukat" width="100px" heigth="80px">
-        <a href="transaction/kasir.php?menu=Jus Alpukat&harga=15000">
+        <a href="admin/kasir.php?menu=Jus Alpukat&harga=15000">
          <button class="btn">beli Sekarang</button>
         </a>
     </div>

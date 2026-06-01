@@ -38,7 +38,7 @@
      
         <h1>1. Nasi goreng</h1>
         <p>15000</p>
-       <img src="assets/img/nasi goreng.jpg" class="img" alt="nasi goreng" >
+       <img src="assets/img/nasi goreng.jpg" class="img" alt="nasi goreng" width="100px" height="80px" >
        <a href="admin/kasir.php?menu=Nasi goreng&harga=15000">
         <button class="btn">Beli Sekarang</button>
     </a>

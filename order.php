@@ -1,3 +1,7 @@
+<?php 
+require 'auth/config.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -138,5 +142,16 @@
     
 </body>
 </html>
+
+
+
+
+
+<?php
+
+$menu = $_GET['menu'] ?? '';
+$harga = $_GET['harga'] ?? '';
+
+?>
 
 

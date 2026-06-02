@@ -58,6 +58,8 @@ nav a:hover{
 h1{
     text-align:center;
     margin-top:40px;
+    padding:4px;
+    margin:auto;
     
 }
 
@@ -92,10 +94,10 @@ h2{
 /* CARD MENU */
 .item{
     background-color:white;
-    width:20px;
+    width:100px;
     border-radius:12px;
     padding:20px;
-    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    /* box-shadow:0 4px 10px rgba(0,0,0,0.1); */
     text-align:center;
     transition:0.3s;
 }

@@ -50,13 +50,15 @@ $layanan = [
 
 </header>
 
-<h1>Layanan Warung Nusantara</h1>
+<h1 class="judul-layanan">
+    Layanan Warung Nusantara
+</h1>
 
-<section class="menu">
+<section class="layanan-container">
 
 <?php foreach($layanan as $item) : ?>
 
-    <div class="item">
+    <div class="layanan-card">
 
         <h2>
             <?php echo $item['nama']; ?>

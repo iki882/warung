@@ -14,7 +14,7 @@ body{
     line-height:1.6;
 }
 
-/* HEADER */
+
 header{
     display:flex;
     justify-content:space-between;
@@ -23,6 +23,7 @@ header{
     padding:15px 30px;
 }
 
+
 /* LOGO */
 .container{
     display:flex;
@@ -30,9 +31,12 @@ header{
 }
 
 .Logo{
-    width:70px;
+    width:90px;
     height:auto;
+    object-fit:contain;
 }
+
+
 
 /* NAVBAR */
 nav{
@@ -59,10 +63,18 @@ h1{
     text-align:center;
     margin-top:40px;
     padding:4px;
-    margin:auto;
+  
     
 }
 
+.hubungi{
+    text-align:center;
+}
+
+.kontak{
+    text-align:center;
+    margin: top 10px;
+}
 h2{
     text-align:center;
     margin-top:30px;
@@ -81,26 +93,25 @@ h2{
      text-align:center;
 }
 
-/* MENU */
+
 .menu{
     display:flex;
     justify-content:center;
     flex-wrap:wrap;
     gap:25px;
-   
-    width:100px;
+    width:100%;
+    margin-top:40px;
 }
 
-/* CARD MENU */
 .item{
     background-color:white;
-    width:100px;
+    width:250px;
     border-radius:12px;
     padding:20px;
-    /* box-shadow:0 4px 10px rgba(0,0,0,0.1); */
     text-align:center;
-    transition:0.3s;
 }
+
+
 
 /* .item:hover{
     transform:translateY(-5px);

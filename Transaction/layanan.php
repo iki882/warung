@@ -39,7 +39,9 @@ $layanan = [
     <div class="container">
         <img src="../assets/img/Logo-warung3.png"
              class="logo"
-             alt="Logo Warung">
+             alt="Logo Warung"
+             width="90px">
+             
     </div>
 
     <nav>

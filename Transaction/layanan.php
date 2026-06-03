@@ -32,7 +32,7 @@ $layanan = [
     <link rel="stylesheet" href="../assets/style.css">
 </head>
 
-<body>
+<body class="page1 layanan">
 
 <header>
 

@@ -97,6 +97,10 @@ h2{
      text-align:center;
 }
 
+.mission ul{
+    list-style: none;
+}
+
 .team{
      text-align:center;
 }

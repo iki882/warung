@@ -1,6 +1,5 @@
 
 <?php
-include 'auth/config.php';
 $layanan = [
     [
         "nama" => "Delivery",
@@ -39,7 +38,7 @@ $layanan = [
 
     <div class="container">
         <img src="../assets/img/Logo-warung3.png"
-             class="logo"
+             class="Logo"
              alt="Logo Warung"
             
              

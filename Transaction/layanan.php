@@ -1,5 +1,6 @@
 
 <?php
+include 'auth/config.php';
 $layanan = [
     [
         "nama" => "Delivery",
@@ -40,7 +41,7 @@ $layanan = [
         <img src="../assets/img/Logo-warung3.png"
              class="logo"
              alt="Logo Warung"
-             width="90px">
+            
              
     </div>
 
@@ -67,8 +68,8 @@ $layanan = [
         </h2>
 
         <img src="<?php echo $item['gambar']; ?>"
-             class="img"
-             alt="<?php echo $item['nama']; ?>">
+     class="layanan-img"
+     alt="<?php echo $item['nama']; ?>">
 
         <p>
             <?php echo $item['deskripsi']; ?>

@@ -1,5 +1,5 @@
 <?php
-include 'auth/config.php';
+require 'auth/config.php';
 
 // Vision
 $vision = "To introduce Indonesian traditional food to the world.";
